@@ -14,7 +14,7 @@ type ErrorResponse = { error: string; retryAfter?: number };
 const BIBLE_API_KEY = process.env.BIBLE_API_KEY ?? "";
 const BIBLE_API_URL =
   process.env.BIBLE_API_URL ??
-  "https://pasayloakomego.onrender.com/api/bibleai";
+  "https://selovapi.onrender.com/api/bibleai";
 
 const MAX_PROMPT_LENGTH = 500;
 
